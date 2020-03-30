@@ -27,7 +27,7 @@ q {font-style: normal; padding: 0 5px;}
 :not([class*=uk-nav] [class*=uk-tab]) a:hover {transition: all 500ms ease;}
 .transition_disabled {transition: none;}
 /* unvisited link */
-/* a:not(.uk-close):link, a:not(.uk-close):visited, a:not(.uk-close):focus {color: #000; outline-color: transparent;} */
+a:not(.uk-close):link, a:not(.uk-close):visited, a:not(.uk-close):focus {color: #000; outline-color: transparent;}
 a:hover, a:active {color: #000; text-decoration: underline;}
 /* selected link */
 a:active {color: darkgrey;}
@@ -1018,14 +1018,14 @@ textarea {min-height: 100px;}
 .highlight {
   color: red !important;
 }
-a {
-  color: blue;
-}
 ul>li>*, ol>li>* {
   vertical-align: top;
 }
 .editor ul {
   list-style: disc !important;
+}
+.editor a {
+  color: blue !important;
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
 
