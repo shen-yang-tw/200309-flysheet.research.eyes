@@ -28,7 +28,7 @@ q {font-style: normal; padding: 0 5px;}
 .transition_disabled {transition: none;}
 /* unvisited link */
 a:not(.uk-close):link, a:not(.uk-close):visited, a:not(.uk-close):focus {color: #000; outline-color: transparent;}
-a:hover, a:active {color: #000; text-decoration: underline;}
+a:hover>span, a:active {color: #000; text-decoration: underline;}
 /* selected link */
 a:active {color: darkgrey;}
 a, span, label, strong, small {display: inline-block;}
