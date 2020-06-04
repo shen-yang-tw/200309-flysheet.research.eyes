@@ -42,7 +42,7 @@ a:not([class*=margin]):last-child, span:not([class*=margin]):not([class*=mr-]):l
 .fontSize1_2 {font-size: 1.2rem;}
 .fontSize1_4 {font-size: 1.4rem;}
 .underline {border-bottom: 1px solid #ddd; padding-bottom: 5px;}
-.hover_remove_underline:hover, .remove_underline, .remove_underline:hover, a:hover>.remove_underline, nav a:hover {border-bottom: 0; text-decoration: none; transition: none;}
+.hover_remove_underline:hover, .remove_underline, .remove_underline:hover, .remove_underline>span, .remove_underline:hover>span, a:hover>.remove_underline, nav a:hover {border-bottom: 0; text-decoration: none; transition: none;}
 .linkline, .hover_linkline:hover, .hover_linkline:hover>* {text-decoration: underline !important;}
 .linkline:hover {text-decoration: none !important;}
 .lineHeight_normal {line-height: normal;}
